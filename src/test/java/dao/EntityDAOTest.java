@@ -2,6 +2,8 @@ package dao;
 
 import org.junit.Test;
 
+import fi.entitymanager.dao.EntityDAO;
+
 import javax.swing.text.html.parser.Entity;
 
 import static org.junit.Assert.*;
