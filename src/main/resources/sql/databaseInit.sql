@@ -1,3 +1,9 @@
+-- Use these sql commands to initialize entitymanager database
+
+------------------------
+-- Creating the database
+------------------------
+
 CREATE DATABASE entity_database;
 USE entity_database;
 
