@@ -6,8 +6,8 @@ import javax.ws.rs.PathParam;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 
-import database.DatabaseOperations;
 import fi.entitymanager.dao.EntityDAO;
+import fi.entitymanager.database.DatabaseOperations;
 import fi.entitymanager.resources.Constants;
 
 @Path("/entity")

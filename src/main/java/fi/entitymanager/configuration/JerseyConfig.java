@@ -5,9 +5,9 @@ import org.glassfish.jersey.server.ResourceConfig;
 import fi.entitymanager.rest.EntityRest;
 
 @ApplicationPath("/")
-public class MyApplication extends ResourceConfig {
+public class JerseyConfig extends ResourceConfig {
     
-	public MyApplication() {
+	public JerseyConfig() {
 		register(EntityRest.class);
 	}
 	

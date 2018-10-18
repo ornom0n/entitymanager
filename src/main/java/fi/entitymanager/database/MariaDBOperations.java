@@ -1,4 +1,4 @@
-package database;
+package fi.entitymanager.database;
 
 import fi.entitymanager.dao.EntityDAO;
 import fi.entitymanager.dao.EntityRelationshipDAO;
